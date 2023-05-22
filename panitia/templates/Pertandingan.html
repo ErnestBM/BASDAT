@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1>Panitia</h1>
+
+            <div class="menu">
+                <a href="#">Dashboard</a>
+                <a href="#">Rapat</a>
+                <a href="#"class="is-active">Manage Pertandingan</a>
+                <a href="#">Logout</a>
+            </div>
+
+            <button class="hamburger">
+                <span class="material-icons">menu</span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+    </nav>
+
+    <div class="menu">
+        <a href="#" class="is-active">Dashboard</a>
+        <a href="#">Rapat</a>
+        <a href="#">Manage Pertandingan</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <table>
+        <tr>
+            <th colspan="5">List Pertandingan Grup Stage</td>
+        </tr>
+        <tr>
+            <th>Grup</th>
+            <th>Tim</th>
+            <th>Waktu</th>
+            <th>Pemenang</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <th rowspan="4">A</th>
+            <td>A vs B</td>
+            <td>28 April 2023, 13:00</td>
+            <td>A</td>
+            <td><a class="laporan-button" href="#">Lihat Peristiwa Tim 1</a> <br />
+                <a class="laporan-button" href="#">Lihat Peristiwa Tim 2</a> </td>
+        </tr>
+        <tr>
+            <td>C vs D</td>
+            <td>29 April 2023, 13:00</td>
+            <td>D</td>
+            <td><a class="laporan-button" href="#">Lihat Peristiwa Tim 1</a> <br />
+                <a class="laporan-button" href="#">Lihat Peristiwa Tim 2</a> </td>
+        </tr>
+        <tr>
+            <td>E vs F</td>
+            <td>Waktu Dimulai -5 Menit</td>
+            <td>-</td>
+            <td><a class="laporan-button" href="#">Mulai</a></td>
+        </tr>
+        <tr>
+            <td>G vs H</td>
+            <td>10 May 2023, 12:00</td>
+            <td>-</td>
+            <td>Belum Waktunya</td>
+        </tr>
+        <tr>
+            <th colspan="5">
+                <input type="submit" class="btn" value="Finish">
+            </th>
+        </tr>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
